@@ -14,9 +14,9 @@ document.addEventListener('DOMContentLoaded', function() {
     //    - reply_to: {{reply_to}}
     // 4. Replace the placeholder values below with your actual EmailJS credentials
     const EMAILJS_CONFIG = {
-        serviceID: 'YOUR_SERVICE_ID',      // Replace with your EmailJS service ID
-        templateID: 'YOUR_TEMPLATE_ID',    // Replace with your EmailJS template ID
-        publicKey: 'YOUR_PUBLIC_KEY'       // Already initialized in HTML head
+        serviceID: 'service_riqm5ed',      // Replace with your EmailJS service ID
+        templateID: 'template_ialw9hk',    // Replace with your EmailJS template ID
+        publicKey: '4ZazSvRf6MtsPkSiN'       // Already initialized in HTML head
     };
 
     // Notification system - moved to top to be available everywhere
@@ -489,7 +489,8 @@ document.addEventListener('DOMContentLoaded', function() {
         downloadResumeBtn.addEventListener('click', function(e) {
             e.preventDefault();
             console.log('Resume download clicked');
-            showNotification('Resume download would be available here. Please contact via email for the latest version.', 'info');
+            showNotification('Download Resume from new tab. Please contact via email for the latest version.', 'info');
+            window.open('Shreekar_Resume.pdf', '_blank');
         });
     }
 
