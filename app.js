@@ -267,10 +267,10 @@ document.addEventListener('DOMContentLoaded', function() {
             e.preventDefault();
             
             // Create a temporary notification since we don't have an actual resume file
-            showNotification('Resume download would be available here. Please contact via email for the latest version.', 'info');
+            //showNotification('Resume download would be available here. Please contact via email for the latest version.', 'info');
             
             // In a real implementation, you would have:
-            // window.open('path-to-resume.pdf', '_blank');
+            window.open('Shreekar_Resume.pdf', '_blank');
         });
     }
 
